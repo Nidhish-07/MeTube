@@ -54,7 +54,8 @@ const Home = () => {
             .map((e) => (
               <CustomCard
                 key={videos.indexOf(e)}
-                title={e.title}npm
+                title={e.title}
+                npm
                 image={e.image}
                 uploadedAgo={e.uploadedAgo}
                 uploadedBy={e.uploadedBy}
