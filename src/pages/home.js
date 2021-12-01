@@ -14,9 +14,8 @@ const Home = () => {
   };
   useEffect(() => {
     async function getVideos() {
-      const response = await fetch(
-        `${process.env.REACT_APP_API_URL}/videos`,
-
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/videos`, 
+      
         {
           method: "GET",
         }
