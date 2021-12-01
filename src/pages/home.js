@@ -14,9 +14,9 @@ const Home = () => {
   };
   useEffect(() => {
     async function getVideos() {
-      // const response = await fetch(`${process.env.REACT_APP_API_URL}/videos`, {
       const response = await fetch(
-        "https://salty-savannah-61881.herokuapp.com/videos",
+        `${process.env.REACT_APP_API_URL}/videos`,
+
         {
           method: "GET",
         }
